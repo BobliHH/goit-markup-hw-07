@@ -1,11 +1,11 @@
-:root {
-    --highlight-color: #2196f3;
-    --white-color: #ffffff;
-    --dark-bg: #2f303a;
-    --text-color: #757575;
-    --text-on-dark-bg: rgba(255, 255, 255, 0.6);
-    --button-background: #f5f4fa;
-  }
+// :root {
+//     --highlight-color: #2196f3;
+//     --white-color: #ffffff;
+//     --dark-bg: #2f303a;
+//     --text-color: #757575;
+//     --text-on-dark-bg: rgba(255, 255, 255, 0.6);
+//     --button-background: #f5f4fa;
+//   }
 
   * {
     margin-block-start: 0;
@@ -22,6 +22,12 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    --highlight-color: #2196f3;
+    --white-color: #ffffff;
+    --dark-bg: #2f303a;
+    --text-color: #757575;
+    --text-on-dark-bg: rgba(255, 255, 255, 0.6);
+    --button-background: #f5f4fa;
   }
 
   .unstyled-list {
