@@ -52,6 +52,15 @@ img {
   vertical-align: bottom;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 94px;
+}
+
 .hero-section {
   background-color: var(--dark-bg);
   padding: 200px 0;
@@ -99,17 +108,6 @@ img {
   padding: 10px 20px;
 }
 
-.section {
-  margin-bottom: 94px;
-}
-
-/* .skills-section { */
-/* margin-top: 94px; */
-/* border: 7px solid red; */
-/* } */
-/* .what-we-do-section { */
-/* border: 7px solid red; */
-/* } */
 .our-team-section {
   background-color: var(--button-background);
   padding-bottom: 94px;
@@ -846,11 +844,6 @@ label:focus-within svg {
 
 .page-header > .container {
   display: flex;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .main-nav-item {
