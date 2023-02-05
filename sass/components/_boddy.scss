@@ -15,8 +15,14 @@
     text-transform: uppercase;
     margin-bottom: 30px;
   }
+
+  .hero-request-button-container {
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid green; */
+  }
   
-  .request-button {
+  .hero-request-button {
     color: var(--white-color);
     background-color: var(--highlight-color);
     border: 1px solid var(--highlight-color);
@@ -31,15 +37,9 @@
     padding: 0;
   }
   
-  .center {
-    display: flex;
-    justify-content: center;
-    /* border: 3px solid green; */
-  }
-  
-  .request-button:hover,
-  .request-button:active,
-  .request-button:focus {
+  .hero-request-button:hover,
+  .hero-request-button:active,
+  .hero-request-button:focus {
     background-color: #188ce8;
     margin: 0;
     padding: 10px 20px;
@@ -56,7 +56,7 @@
   
   .our-team-section {
     background-color: var(--button-background);
-    padding-bottom: 94px;
+    // padding-bottom: 94px;
     /* border: 7px solid red; */
   }
   
@@ -97,6 +97,7 @@
     width: 70px;
     height: 70px;
   }
+  
   .technology-icon-list {
     background-color: var(--button-background);
     border-radius: 4px;
@@ -148,9 +149,9 @@
     padding-bottom: 50px;
   }
   
-  .our-team-title {
-    padding-top: 94px;
-  }
+//   .our-team-title {
+//     padding-top: 94px;
+//   }
   
   .our-team-list {
     display: flex;
