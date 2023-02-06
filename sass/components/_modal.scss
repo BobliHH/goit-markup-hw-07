@@ -193,6 +193,7 @@
   
   .form-input-checked[type="checkbox"]:checked + .chechbox-replice .svg-checked {
     opacity: 1;
+    cursor: pointer;
   }
   
   .label-checkbox {
@@ -201,7 +202,7 @@
     margin-top: 25px;
     margin-bottom: 30px;
     padding-left: 10px;
-    cursor: pointer;
+    // cursor: pointer;
   }
   
   .ckeck-text {
@@ -209,8 +210,8 @@
   }
   
   .terms-condition {
-    color: var(--highlight-color);
-    text-decoration: underline;
+    color: rgba(33, 150, 243, 1);
+    // text-decoration: underline;
   }
 
   .icon-forms {
@@ -240,4 +241,20 @@
   .modal-button-submit:active {
     background-color: #188ced;
     color: #ffffff;
+  }
+
+  // .form-input-checked:hover,
+  // .form-input-checked:focus,
+  // .form-input-checked:active{
+  //   cursor: pointer;
+  // }
+
+  // .form-input-checked:hover{
+  //   cursor: pointer;
+  // }
+
+  .svg-checked:hover,
+  .svg-checked:focus,
+  .svg-checked:active{
+    cursor: pointer;
   }

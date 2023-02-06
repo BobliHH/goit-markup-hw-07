@@ -59,6 +59,38 @@
     // padding-bottom: 94px;
     /* border: 7px solid red; */
   }
+
+  .skills-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .skills-list-item {
+    background-color: var(--button-background);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-list-text {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .skills-list-item-text {
+    flex-basis: 270px;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+
+  .skills-text-container{
+    margin-top: 30px;
+  }
   
   .skills-list {
     display: flex;
@@ -84,28 +116,9 @@
     color: var(--text-color);
   }
   
-  .description-icon {
-    max-width: 1200px;
-    margin: 94px auto 30px;
-  }
-  .description-icon-list {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-  }
   .technology-icon {
     width: 70px;
     height: 70px;
-  }
-  
-  .technology-icon-list {
-    background-color: var(--button-background);
-    border-radius: 4px;
-    width: 270px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
   .what-we-do-list {
@@ -247,3 +260,8 @@
     border-color: var(--highlight-color);
     fill: var(--highlight-color);
   }
+
+  
+
+
+
