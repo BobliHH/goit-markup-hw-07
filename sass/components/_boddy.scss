@@ -1,6 +1,6 @@
 .hero-section {
     background-color: var(--dark-bg);
-    padding: 200px 0;
+    padding: 106px 0;
     background-image: url("../images/hero-bg\ \(1\).jpg");
     /* border: 7px solid red; */
   }
@@ -116,7 +116,7 @@
     color: var(--text-color);
   }
   
-  .technology-icon {
+  .skills-icon {
     width: 70px;
     height: 70px;
   }
@@ -226,16 +226,6 @@
   .social-link:hover {
     background-color: var(--highlight-color);
     color: #ffffff;
-  }
-  
-  .subtitle {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
   }
   
   .customers-list {
